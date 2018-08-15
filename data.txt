@@ -1,0 +1,18 @@
+[(ngModel)="name" - listening to everything i do here and store in name
+and also showes tje value of name
+
+<input type="text" [(ngModel)]="name">
+<p>{{name}}</p>
+
+Databinding it is communication between logic(ts) and template(html)
+1)output data ts -> html 
+-string interpolation {{ data }}
+-property binding [propery]="data"
+2)input data(events) html -> ts
+event binding (event)="expression"
+3) two-way binding [(ngModel)]="data"
+react events and output something at the same time
+
+[] - tells that we want dinamecly bind some property
+
+Direactives are instructions in the DOM
